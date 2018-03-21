@@ -61,8 +61,8 @@ return [
         'default' => [
             'app_id' => env('WECHAT_OFFICIAL_ACCOUNT_APPID', 'wx4447ae781722be2f'),         // AppID
             'secret' => env('WECHAT_OFFICIAL_ACCOUNT_SECRET', '8e517750502fbe08f9a6b1fafcaf6b00'),    // AppSecret
-            'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'bBtuETWzplgkSRiddWJOrQOw1EvQZwoIRHm961O0BCS'),           // Token
-            'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', ''),                 // EncodingAESKey
+            'token' => env('WECHAT_OFFICIAL_ACCOUNT_TOKEN', 'yuandingfuwu'),           // Token
+            'aes_key' => env('WECHAT_OFFICIAL_ACCOUNT_AES_KEY', 'bBtuETWzplgkSRiddWJOrQOw1EvQZwoIRHm961O0BCS'),                 // EncodingAESKey
 
             /*
              * OAuth 配置
