@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 use Log;
 
-class WeChatController extends Controller
+class WechatController extends Controller
 {
     /**
      * 处理微信的请求消息
