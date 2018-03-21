@@ -16,3 +16,10 @@ Route::get('/', function () {
 });
 
 Route::any('wx', array('as'=>'wx','uses'=>'WechatController@index'));
+
+#打卡
+Route::any('daka', array('as'=>'daka','uses'=>'WechatController@daka'));
+
+
+#菜单控制器
+Route::get('menu',array('as'=>'menu','uses'=>'WechatController@setmenu'));
